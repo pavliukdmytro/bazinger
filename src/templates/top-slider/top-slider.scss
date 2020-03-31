@@ -1,0 +1,161 @@
+.top-slider{
+	color: #fff;
+	margin-top: -100px;
+	position: relative;
+	&__slide{
+		height: 700px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 140px 0px 40px;
+		@include s___{
+			height: 800px;
+		}
+	}
+	&__wrapper{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+	}
+	&__title{
+		font-family: var(--f-light);
+		text-shadow: 0px 1px 3px rgba(25, 22, 24, 0.36);
+		font-size: 28px;
+		margin-bottom: 24px;
+		line-height: normal;
+		@include s___{
+			font-size: 48px;
+		}
+	}
+	&__text{
+		font-size: 16px;
+		line-height: normal;
+		margin-bottom: 40px;
+		@include s___{
+			font-size: 18px;
+		}
+	}
+	&__buttons{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		@include s___{
+			font-size: 18px;
+			flex-direction: row;
+		}
+		.stroke-button{
+			margin-bottom: 20px;
+			@include s___{
+				margin-right: 39px;
+				margin-bottom: 49px;
+			}
+		}
+		.fill-button{
+			margin-bottom: 49px;
+		}
+	}
+	&__available{
+		font-size: 16px;
+		display: flex;
+		align-items: center;
+		@include s___{
+			font-size: 18px;
+		}
+		span{
+			margin-right: 21px;
+		}
+		a{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 43px;
+			height: 43px;
+			background-color: rgba(0,0,0, .35);
+			border-radius: 50%;
+			&:not(:last-child) {
+				margin-right: 14px;
+			}
+			@include s___{
+				width: 53px;
+				height: 53px;
+			}
+			svg{
+				fill: #fff;
+				transition: .3s fill linear;
+			}
+			&:hover{
+				svg{
+					fill: var(--c-coral);
+				}
+			}
+		}
+	}
+	&.owl-carousel{
+		.owl-nav{
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			max-width: 1379px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 0px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%);
+			button.owl-prev, button.owl-next{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 35px;
+				height: 35px;
+				background-color:  rgba(75,202,225, .2);
+				border-radius: 50%;
+				flex-shrink: 0;
+				transform: translateY(-50%);
+				transition: .3s background-color linear;
+				@include s___{
+					width: 55px;
+					height: 55px;
+				}
+				&:hover{
+					background-color:  rgba(75,202,225, .6);
+				}
+			}
+			svg{
+				fill: #fff;
+			}
+		}
+		.owl-dots{
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			.owl-dot{
+				width: 11px;
+				height: 11px;
+				border: 1px solid #fff;
+				border-radius: 50%;
+				transition: .3s linear;
+				&:not(:last-child){
+					margin-right: 12px;
+				}
+				span{
+					transition: .3s linear;
+					display: block;
+					height: 100%;
+					border-radius: 50%;
+				}
+			}
+			.owl-dot.active{
+				span{
+					background-color: var(--c-coral);
+					transform: scale(1.6);
+				}
+			}
+		}
+	}
+}

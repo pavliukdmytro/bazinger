@@ -1,0 +1,12 @@
+.gallery-wrapper{
+	padding: 50px 0 0;
+	.sub-text{
+		margin-bottom: 58px;
+	}
+	&__grid{
+		@include s_up(1, 0, 30);
+		@include s___up(2, 30, 30);
+		@include m__up(4, 30, 30);
+	}
+}
+@import "gallery-item/gallery-item";

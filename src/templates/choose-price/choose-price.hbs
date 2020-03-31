@@ -1,0 +1,9 @@
+<div class="choose-price">
+	<div class="title">{{choosePrice.title}}</div>
+	<p class="sub-text">{{choosePrice.text}}</p>
+	<div class="choose-price__grid">
+		{{#each choosePrice.list}}
+			{{> choose-price/choose-card/choose-card card=this}}
+		{{/each}}
+	</div>
+</div>

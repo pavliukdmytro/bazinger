@@ -1,0 +1,16 @@
+<div class="choose-card">
+    <p class="choose-card__description">
+        {{card.description}}
+    </p>
+	<div class="choose-card__price">
+        {{card.price}}
+    </div>
+	<div class="choose-card__text">
+		{{#each card.text}}
+			<span>{{this}}</span>
+		{{/each}}
+	</div>
+	<a href="{{card.link.href}}" class="choose-card__link">
+		{{card.link.text}}
+	</a>
+</div>

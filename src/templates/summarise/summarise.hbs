@@ -1,0 +1,11 @@
+<div class="summarise">
+	<div class="container">
+		<h2 class="title">{{summarise.title}}</h2>
+		<p class="sub-text">{{summarise.text}}</p>
+		<div class="summarise__grid">
+			{{#each summarise.list}}
+				{{> summarise/summarise__item/summarise__item.hbs item=this}}
+			{{/each}}
+		</div>
+    </div>
+</div>

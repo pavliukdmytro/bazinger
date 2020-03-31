@@ -50,5 +50,214 @@
                 "active": false
             }
         ]
+    },
+    "topSlider": [
+        {
+            "title": "Simple, Beautiful <b>and Amazing</b>",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.",
+            "image": "images/topSlide-1.png",
+            "download": {
+                "href": "javascript:void(0)",
+                "text": "DOWNLOAD"
+            },
+            "learnMore": {
+                "href": "javascript:void(0)",
+                "text": "LEARN MORE"
+            },
+            "available": {
+                "text": "Available on :",
+                "list": [
+                    {
+                        "href": "javascript:void(0)",
+                        "image": "<svg width=\"24px\" height=\"24px\">\n\t<use xlink:href=\"#svg-apple-logo\"></use>\n</svg>"
+                    },
+                    {
+                        "href": "javascript:void(0)",
+                        "image": "<svg width=\"24px\" height=\"24px\">\n\t<use xlink:href=\"#svg-android-logo\"></use>\n</svg>"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Simple, Beautiful and Amazing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.",
+            "image": "images/topSlide-1.png",
+            "download": {
+                "href": "javascript:void(0)",
+                "text": "DOWNLOAD"
+            },
+            "learnMore": {
+                "href": "javascript:void(0)",
+                "text": "LEARN MORE"
+            },
+            "Aavailable": {
+                "text": "Aavailable on :",
+                "list": [
+                    {
+                        "href": "javascript:void(0)",
+                        "image": ""
+                    },
+                    {
+                        "href": "javascript:void(0)",
+                        "image": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "summarise": {
+        "title": "summarise the features",
+        "text": "summarise what your product is all about ",
+        "list": [
+            {
+                "link": "javascript:void(0)",
+                "image": {
+                    "alt": "summarise-1",
+                    "src": "./images/summarise-1.png"
+                },
+                "title": "Attractive Layout",
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "link": "javascript:void(0)",
+                "image": {
+                    "alt": "summarise-2",
+                    "src": "./images/summarise-2.png"
+                },
+                "title": "Fresh Design",
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "link": "javascript:void(0)",
+                "image": {
+                    "alt": "summarise-3",
+                    "src": "./images/summarise-3.png"
+                },
+                "title": "multipurpose",
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "link": "javascript:void(0)",
+                "image": {
+                    "alt": "summarise-4",
+                    "src": "./images/summarise-4.png"
+                },
+                "title": "Easy to customize",
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            }
+        ]
+    },
+    "gallery": {
+        "title": "show the gallery",
+        "text": "summarise what your product is all about",
+        "list": [
+            {
+                "image": {
+                    "src": "./images/gallery-face-1.jpg",
+                    "alt": "gallery-1",
+                    "href":  "./images/gallery-1.jpg",
+                    "text": "SCREEN SHOT #1"
+                },
+                "images": [
+                    "./images/gallery-2.jpg",
+                    "./images/gallery-3.jpg"
+                ],
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "image": {
+                    "src": "./images/gallery-face-4.jpg",
+                    "alt": "gallery-1",
+                    "href":  "./images/gallery-4.jpg",
+                    "text": "SCREEN SHOT #2"
+                },
+                "images": [
+                    "./images/gallery-5.jpg",
+                    "./images/gallery-6.jpg"
+                ],
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "image": {
+                    "src": "./images/gallery-face-7.jpg",
+                    "alt": "gallery-1",
+                    "href":   "./images/gallery-7.jpg",
+                    "text": "SCREEN SHOT #3"
+                },
+                "images": [
+                    "./images/gallery-8.jpg",
+                    "./images/gallery-9.jpg"
+                ],
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "image": {
+                    "src": "./images/gallery-face-10.jpg",
+                    "alt": "gallery-1",
+                    "href":  "./images/gallery-10.jpg",
+                    "text": "SCREEN SHOT #4"
+                },
+                "images": [
+                    "./images/gallery-11.jpg",
+                    "./images/gallery-12.jpg"
+                ],
+                "text": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            }
+        ]
+    },
+    "video": {
+        "title": "Watch the best Technology in <b>Action</b>",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.",
+        "image": "./images/video-image.png",
+        "link": {
+            "src": "https://www.youtube.com/watch?v=TdrL3QxjyVw&pbjreload=10",
+            "image": "<svg width=\"24px\" height=\"24px\">\n\t<use xlink:href=\"#svg-youtube-logo\"></use>\n</svg>"
+        }
+    },
+    "choosePrice": {
+        "title": "choose your price",
+        "text": "summarise what your product is all about",
+        "list": [
+            {
+                "description": "basic package",
+                "price": "20$",
+                "text": [
+                    "Nullam suscipit vitae",
+                    "Etiam faucibus",
+                    "Vivamus viverra"
+                ],
+                "link": {
+                    "text": "PURCHASE",
+                    "href": "javascript:void(0)"
+                }
+            },
+            {
+                "description": "professional package",
+                "price": "25$",
+                "text": [
+                    "Nullam suscipit vitae",
+                    "Etiam faucibus",
+                    "Vivamus viverra",
+                    "Praesent pharetra"
+                ],
+                "link": {
+                    "text": "PURCHASE",
+                    "href": "javascript:void(0)"
+                }
+            },
+            {
+                "description": "Advanced package",
+                "price": "30$",
+                "text": [
+                    "Nullam suscipit vitae",
+                    "Etiam faucibus",
+                    "Vivamus viverra"
+                ],
+                "link": {
+                    "text": "PURCHASE",
+                    "href": "javascript:void(0)"
+                }
+            }
+        ]
     }
 }

@@ -1,0 +1,12 @@
+.stroke-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 196px;
+	height: 45px;
+	border: solid 2px #ffffff;
+	border-radius: 8px;
+	@include s___{
+		height: 65px;
+	}
+}

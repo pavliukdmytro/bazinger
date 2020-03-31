@@ -1,3 +1,22 @@
 body{
 	font-family: Lato;
 }
+b{
+	font-family: var(--f-bold);
+}
+.title{
+	font-size: 36px;
+	color: var(--charcoal-grey);
+	line-height: normal;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sub-text{
+	font-size: 20px;
+	font-weight: 300;
+	line-height: normal;
+	text-align: center;
+	margin-bottom: 67px;
+	font-family: var(--f-light);
+}

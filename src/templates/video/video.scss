@@ -1,0 +1,40 @@
+.video{
+	height: 550px;
+	color: #fff;
+	font-family: var(--f-light);
+	.container{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+
+	}
+	&__link-wrapper{
+		margin-bottom: 38px;
+		svg{
+			width: 116px;
+			stroke: #fff;
+			height: 75px;
+		}
+	}
+	&__title{
+		font-size: 28px;
+		margin-bottom: 27px;
+		line-height: normal;
+		text-align: center;
+		@include s__{
+			font-size: 38px;
+		}
+		@include m__{
+			font-size: 48px;
+		}
+	}
+	&__text{
+		max-width: 670px;
+		font-size: 16px;
+		@include s__{
+			font-size: 18px;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.fill-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 41px;
+	background-color: var(--c-coral);
+	width: 196px;
+	border-radius: 8px;
+	box-shadow: 0px 4px 0 0 #277697;
+	transition: .2s linear;
+	&:active{
+		box-shadow:  0px 2px 0 0 var(--c-coral);
+	}
+	@include s___{
+		height: 61px;
+	}
+}

@@ -21,6 +21,26 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Lato-light';
+	src: url('../../fonts/Lato/Lato-Light.eot');
+	src: local('../../fonts/Lato/Lato Light'), local('Lato-Light'),
+	url('../../fonts/Lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/Lato/Lato-Light.woff') format('woff'),
+	url('../../fonts/Lato/Lato-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato-Bold';
+	src: url('../../fonts/Lato/Lato-Bold.eot');
+	src: local('Lato Bold'), local('Lato-Bold'),
+	url('../../fonts/Lato/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/Lato/Lato-Bold.woff') format('woff'),
+	url('../../fonts/Lato/Lato-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
 
 //@font-face {
 //	font-family: 'Droid Sans Mono';
@@ -192,17 +212,6 @@
 //
 //@font-face {
 //	font-family: 'Lato';
-//	src: url('Lato-Bold.eot');
-//	src: local('Lato Bold'), local('Lato-Bold'),
-//	url('Lato-Bold.eot?#iefix') format('embedded-opentype'),
-//	url('Lato-Bold.woff') format('woff'),
-//	url('Lato-Bold.ttf') format('truetype');
-//	font-weight: bold;
-//	font-style: normal;
-//}
-//
-//@font-face {
-//	font-family: 'Lato';
 //	src: url('Lato-BoldItalic.eot');
 //	src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
 //	url('Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
@@ -222,14 +231,4 @@
 //	font-weight: 300;
 //	font-style: italic;
 //}
-//
-//@font-face {
-//	font-family: 'Lato';
-//	src: url('Lato-Light.eot');
-//	src: local('Lato Light'), local('Lato-Light'),
-//	url('Lato-Light.eot?#iefix') format('embedded-opentype'),
-//	url('Lato-Light.woff') format('woff'),
-//	url('Lato-Light.ttf') format('truetype');
-//	font-weight: 300;
-//	font-style: normal;
-//}
+

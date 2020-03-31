@@ -1,0 +1,11 @@
+<div class="container">
+	<div class="gallery-wrapper">
+		<h2 class="title">{{gallery.title}}</h2>
+		<p class="sub-text">{{gallery.text}}</p>
+		<div class="gallery-wrapper__grid">
+			{{#each gallery.list}}
+				{{> gallery/gallery-item/gallery-item item=this}}
+			{{/each}}
+		</div>
+	</div>
+</div>

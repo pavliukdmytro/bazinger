@@ -1,0 +1,30 @@
+<div class="top-slider owl-carousel owl-theme">
+	{{#each topSlider}}
+		<div class="top-slider__slide" style="background-image: url('{{this.image}}')">
+			<div class="top-slider__wrapper">
+				<div class="row">
+					<div class="cols s___7 s___offset-5">
+						<h2 class="top-slider__title">{{{this.title}}}</h2>
+						<p class="top-slider__text">{{this.text}}</p>
+						<div class="top-slider__buttons">
+							{{#if this.download}}
+								<a href="{{this.download.href}}" class="stroke-button">{{this.download.text}}</a>
+							{{/if}}
+							{{#if this.learnMore}}
+								<a href="{{this.learnMore.href}}" class="fill-button">{{this.learnMore.text}}</a>
+							{{/if}}
+						</div>
+						<div class="top-slider__available">
+							<span>
+								{{this.available.text}}
+							</span>
+							{{#each this.available.list}}
+								<a href="{{this.href}}">{{{this.image}}}</a>
+							{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	{{/each}}
+</div>

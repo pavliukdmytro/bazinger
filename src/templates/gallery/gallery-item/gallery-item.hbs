@@ -1,0 +1,14 @@
+<div class="gallery-item">
+	<div class="gallery-item__images">
+		<a href="{{item.image.href}}" class="gallery-item__image">
+			<img src="{{item.image.src}}" alt="{{item.image.alt}}">
+			<p>{{item.image.text}}</p>
+		</a>
+		{{#each item.images}}
+			<a href="{{this}}"></a>
+		{{/each}}
+	</div>
+	<p class="gallery-item__text">
+		{{item.text}}
+	</p>
+</div>

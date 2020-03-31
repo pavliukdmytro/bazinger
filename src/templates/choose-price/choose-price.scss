@@ -1,0 +1,11 @@
+.choose-price{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 71px 30px 89px;
+	max-width: 1090px;
+	&__grid{
+		@include s_up(1,0,30);
+		@include m_up(3,40,0);
+	}
+}
+@import "./choose-card/choose-card";

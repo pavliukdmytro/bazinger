@@ -1,0 +1,61 @@
+.choose-card{
+	border: 1px solid var(--light-peach);
+	background-color: var(--c-cream);
+	color: var(--very-light-pink);
+	&__description, &__price, &__text, &__link{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__description{
+		height: 70px;
+		margin-bottom: 0;
+		font-size: 17px;
+		letter-spacing: -0.51px;
+		font-family: var(--f-bold);
+	}
+	&__price{
+		height: 115px;
+		background-color: var(--lichen);
+		font-family: var(--font-2);
+		font-size: 85px;
+		text-shadow: 0px 1px 2px rgba(25, 22, 24, 0.3);
+		letter-spacing: -4.25px;
+		color: #ffffff;
+	}
+	&__text{
+		display: flex;
+		flex-direction: column;
+		padding: 27px 0;
+		line-height: 2.22;
+		font-size: 18px;
+	}
+	&__link{
+		width: 171px;
+		height: 49px;
+		border-radius: 2.6px;
+		background-color: var(--lichen);
+		margin: 0 auto 20px;
+		color: #fff;
+	}
+	&:nth-child(2){
+		color: var(--c-coral);
+		@include m_{
+			transform: scale(1.1);
+		}
+		.choose-card__link{
+			background-color: var(--c-coral);
+		}
+		.choose-card__price{
+			background-color: var(--c-coral);
+		}
+	}
+	&:nth-child(3){
+		.choose-card__link{
+			background-color: var(--pumpkin-orange);
+		}
+		.choose-card__price{
+			background-color: var(--pumpkin-orange);
+		}
+	}
+}
