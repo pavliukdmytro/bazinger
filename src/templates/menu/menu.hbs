@@ -1,0 +1,14 @@
+<div class="menu">
+	<span class="menu__button">
+		<span></span>
+	</span>
+	<nav class="menu__nav">
+		{{#each menu}}
+			{{#if this.active}}
+				<a href="{{this.href}}" class="menu__link menu__link_active">{{this.text}}</a>
+			{{else}}
+				<a href="{{this.href}}" class="menu__link">{{this.text}}</a>
+			{{/if}}
+		{{/each}}
+	</nav>
+</div>
