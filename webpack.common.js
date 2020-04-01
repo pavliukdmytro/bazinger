@@ -43,12 +43,29 @@ module.exports = {
 			{
 				test: /\.hbs$/,
 				loader: "handlebars-loader",
-				query: {
+				//query: {
+				//	partialDirs: [
+				//		path.join(__dirname, 'src/templates')
+				//	],
+				//	//inlineRequires: '/src/images/'
+				//},
+				options: {
 					partialDirs: [
 						path.join(__dirname, 'src/templates')
 					],
-					//inlineRequires: '/src/images/'
-				},
+					precompileOptions: {
+						knownHelpersOnly: false
+					},
+					helperResolver: (helper, callback) => {
+						switch (helper) {
+						case './ifeq':
+							callback(null, path.resolve(__dirname, 'src/helpers/ifeq.js'));
+							break;
+							default:
+								callback();
+						}
+					}
+				}
 			}
 		]
 	},

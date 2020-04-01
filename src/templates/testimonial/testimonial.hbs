@@ -1,0 +1,8 @@
+<div class="testimonial">
+	<h2 class="title">{{testimonial.title}}</h2>
+	<div class="testimonial-slider owl-carousel owl-theme">
+		{{#each testimonial.list}}
+			{{> testimonial/testimonial-slide/testimonial-slide slide=this}}
+		{{/each}}
+	</div>
+</div>

@@ -259,5 +259,75 @@
                 }
             }
         ]
+    },
+    "testimonial": {
+        "title": "Testimonials",
+        "list": [
+            {
+                "image": "<svg width=\"152px\" height=\"171px\">\n\t<use xlink:href=\"#svg-user-icon\"></use>\n</svg>",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nPraesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.",
+                "author": "John Doe <br> from some company"
+            },
+            {
+                "image": "<svg width=\"152px\" height=\"171px\">\n\t<use xlink:href=\"#svg-user-icon\"></use>\n</svg>",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nPraesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.",
+                "author": "John Doe <br> from some company"
+            },
+            {
+                "image": "<svg width=\"152px\" height=\"171px\">\n\t<use xlink:href=\"#svg-user-icon\"></use>\n</svg>",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nPraesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.",
+                "author": "John Doe <br> from some company"
+            }
+        ]
+    },
+    "question": {
+        "title": "Do you Like this app?",
+        "link": {
+            "text": "DOWNLOAD NOW",
+            "href": "javascript:void(0)"
+        }
+    },
+    "contactForm": {
+        "title": "Contact",
+        "elements": [
+            {
+                "html": "input",
+                "type": "text",
+                "placeholder": "Your name",
+                "name": "name",
+                "required": true
+            },
+            {
+                "html": "input",
+                "type": "text",
+                "placeholder": "Your email",
+                "name": "email",
+                "required": true
+            },
+            {
+
+                "html": "input",
+                "type": "text",
+                "placeholder": "Subject",
+                "name": "subject",
+                "required": true
+
+            },
+            {
+                "html": "textarea",
+                "placeholder": "Message",
+                "name": "email",
+                "required": true
+
+            },
+            {
+                "html": "submit",
+                "text": "Send"
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "Copyright © 2013 | bazinger | All Rights Reserved",
+        "service": "Terms of Service | Privacy Policy"
     }
 }

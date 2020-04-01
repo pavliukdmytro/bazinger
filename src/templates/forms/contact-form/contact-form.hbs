@@ -1,0 +1,18 @@
+<form class="contact-form form-validate">
+	<h3 class="contact-form__title">{{form.title}}</h3>
+	{{#each form.elements}}
+		{{#ifeq this.html 'input'}}
+			<input type="{{this.type}}" placeholder="{{this.placeholder}}"
+			       name="{{this.name}}" {{#if this.required}}required{{/if}}
+					{{#ifeq this.name 'email'}}class="email"{{/ifeq}}
+			>
+		{{/ifeq}}
+		{{#ifeq this.html 'textarea'}}
+			<textarea name="{{this.name}}" placeholder="{{this.placeholder}}"
+			          {{#if this.required}}required{{/if}} cols="30" rows="10"></textarea>
+		{{/ifeq}}
+		{{#ifeq this.html 'submit'}}
+			<button type="submit">{{this.text}}</button>
+		{{/ifeq}}
+	{{/each}}
+</form>

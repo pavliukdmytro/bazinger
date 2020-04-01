@@ -1,7 +1,9 @@
 .gallery-item{
+
 	img{
 		display: block;
 		width: 100%;
+		transition: .3s transform linear;
 	}
 	&__image{
 		display: block;
@@ -26,6 +28,11 @@
 	}
 	&__images{
 		margin-bottom: 24px;
+		&:hover{
+			img{
+				transform: scale(1.1);
+			}
+		}
 	}
 	&__text{
 		margin-left: 25px;

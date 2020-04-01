@@ -1,0 +1,21 @@
+.footer{
+	display: flex;
+	align-items: center;
+	height: 110px;
+	background-color: var(--charcoal-grey);
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		width: 100%;
+		color: rgba(254, 254, 254, 0.25);
+		font-size: 12px;
+		@include s___{
+			flex-direction: row;
+		}
+		p{
+			margin-bottom: 0px;
+		}
+	}
+}

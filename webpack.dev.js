@@ -12,7 +12,6 @@ module.exports = merge(common, {
 		noInfo: true,
 		clientLogLevel: 'silent',
 		writeToDisk: true,
-		//outputPath: path.join(__dirname, 'dist')
 	},
 	module: {
 		rules: [

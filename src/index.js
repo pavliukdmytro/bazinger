@@ -8,5 +8,8 @@ require('lightgallery/dist/css/lightgallery.css');
 require('lightgallery');
 require('lg-video');
 
+require('leaflet/dist/leaflet.css');
+require('leaflet');
+window.Inputmask = require('inputmask');
 
 require('./templates/templates');
