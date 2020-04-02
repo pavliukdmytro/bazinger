@@ -37,6 +37,12 @@
 		background-color: var(--lichen);
 		margin: 0 auto 20px;
 		color: #fff;
+		transition: .3s linear;
+		&:hover{
+			color: #fff;
+			background-color: rgba(145, 196, 107, .9);
+			box-shadow: 2px 2px 5px var(--light-peach);
+		}
 	}
 	&:nth-child(2){
 		color: var(--c-coral);
@@ -45,6 +51,10 @@
 		}
 		.choose-card__link{
 			background-color: var(--c-coral);
+			&:hover{
+				background-color: rgba(75,202,255, .9);
+				box-shadow: 2px 2px 5px var(--light-peach);
+			}
 		}
 		.choose-card__price{
 			background-color: var(--c-coral);
@@ -53,6 +63,10 @@
 	&:nth-child(3){
 		.choose-card__link{
 			background-color: var(--pumpkin-orange);
+			&:hover{
+				background-color: rgba(253,134,0, .9);
+				box-shadow: 2px 2px 5px var(--light-peach);
+			}
 		}
 		.choose-card__price{
 			background-color: var(--pumpkin-orange);

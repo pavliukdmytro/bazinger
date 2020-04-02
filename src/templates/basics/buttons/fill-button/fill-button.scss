@@ -11,6 +11,10 @@
 	&:active{
 		box-shadow:  0px 2px 0 0 var(--c-coral);
 	}
+	&:hover{
+		background-color: #79DBFF;
+		color: #277697;
+	}
 	@include s___{
 		height: 61px;
 	}

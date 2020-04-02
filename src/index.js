@@ -12,4 +12,6 @@ require('leaflet/dist/leaflet.css');
 require('leaflet');
 window.Inputmask = require('inputmask');
 
+require('zenscroll');
+
 require('./templates/templates');

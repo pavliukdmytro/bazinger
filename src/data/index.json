@@ -11,42 +11,42 @@
         "menu": [
             {
                 "text": "HOME",
-                "href": "javascript:void(0)",
-                "active": "true"
+                "href": "#top-slider",
+                "active": false
             },
             {
                 "text": "Features",
-                "href": "javascript:void(0)",
+                "href": "#summarise",
                 "active": false
             },
             {
                 "text": "Gallery",
-                "href": "javascript:void(0)",
+                "href": "#gallery",
                 "active": false
             },
             {
                 "text": "Video",
-                "href": "javascript:void(0)",
+                "href": "#video",
                 "active": false
             },
             {
                 "text": "PriceS",
-                "href": "javascript:void(0)",
+                "href": "#prices",
                 "active": false
             },
             {
                 "text": "Testimonials",
-                "href": "javascript:void(0)",
+                "href": "#testimonials",
                 "active": false
             },
             {
                 "text": "DOWNLOAD",
-                "href": "javascript:void(0)",
+                "href": "#download",
                 "active": false
             },
             {
                 "text": "CONTACT",
-                "href": "javascript:void(0)",
+                "href": "#contact",
                 "active": false
             }
         ]

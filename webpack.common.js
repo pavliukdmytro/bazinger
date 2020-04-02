@@ -17,7 +17,7 @@ module.exports = {
 					loader: 'file-loader',
 					options: {
 						name: 'images/[name].[ext]',
-						esModule: false,
+						esModule: false
 					}
 			},
 			{
@@ -37,18 +37,13 @@ module.exports = {
 					loader: 'file-loader',
 					options: {
 						name: 'fonts/[name].[ext]',
+						publicPath: '../'
 					}
 				},
 			},
 			{
 				test: /\.hbs$/,
 				loader: "handlebars-loader",
-				//query: {
-				//	partialDirs: [
-				//		path.join(__dirname, 'src/templates')
-				//	],
-				//	//inlineRequires: '/src/images/'
-				//},
 				options: {
 					partialDirs: [
 						path.join(__dirname, 'src/templates')

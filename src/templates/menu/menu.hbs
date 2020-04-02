@@ -3,6 +3,9 @@
 		<span></span>
 	</span>
 	<nav class="menu__nav">
+		<svg width="24px" height="24px" class="menu__close-mobile">
+			<use xlink:href="#svg-close"></use>
+		</svg>
 		{{#each menu}}
 			{{#if this.active}}
 				<a href="{{this.href}}" class="menu__link menu__link_active">{{this.text}}</a>

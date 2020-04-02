@@ -12,10 +12,20 @@
 	}
 	&__link-wrapper{
 		margin-bottom: 38px;
+		display: block;
+		transition: .3s transform linear;
 		svg{
 			width: 116px;
 			stroke: #fff;
 			height: 75px;
+			fill: transparent;
+			transition: .3s linear;
+		}
+		&:hover{
+			svg{
+				stroke: #c4302b;
+				fill: #c4302b;
+			}
 		}
 	}
 	&__title{
@@ -36,5 +46,14 @@
 		@include s__{
 			font-size: 18px;
 		}
+	}
+}
+
+@keyframes youtube-animate {
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(.9);
 	}
 }
